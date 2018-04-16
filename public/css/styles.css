@@ -1,0 +1,155 @@
+
+body {
+    font-family: 'Lato';
+}
+
+.fa-btn {
+    margin-right: 6px;
+}
+
+.navbar-header {
+    position: inherit;
+    top: 0; left: 0;
+    border-bottom: 1px solid #f1f1f1;
+}
+
+
+.navtoggle {
+    background: #f1f1f1;
+    width: 360px;
+}
+
+.navbar-brand {
+    display: inline;
+    clear: none; width: 300px;
+    background: #f1f1f1; color: #003c69;
+}
+
+
+.move-button {
+    display: inline;
+    width: 60px;
+    height: 60px;
+    border: 1px solid #f1f1f1;
+    top: 0;
+    background: #fff;
+    margin: 0 0 0 63px ; padding: 0;
+    position: absolute;
+    align-content: right;
+}
+
+.navbar-collapse {
+    display: block;
+    clear: left;
+    width: 300px;
+    background: #003c69;
+    height: 100%; min-height: 100%;
+}
+
+.navbar-collapse li {
+     display: block;
+     clear: left;
+    padding: 16px 0 0 0;
+ }
+
+.navbar-collapse li a{
+    color: #96b1c6;
+    font-weight: bold;
+}
+
+.dropdown {
+    position: absolute;
+    right: 100px;
+    top: 10px;
+    color: #000;
+}
+
+li.dropdown a {
+    color: #000;
+}
+
+.dropdown-menu{
+    visibility: hidden;
+    margin: 18px 0 0 -30px;
+    border-top: 1px solid #000;
+}
+
+li.t-txt-sm {
+    color: #8ec63f;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+
+.row {
+    position: absolute;
+    left: 300px; Top: 64px;
+    padding: 64px;
+}
+
+.max-height {
+    background: #003c69;
+     height:100%;
+    width: 300px;
+    position: absolute;
+    top: 0; left: 0;
+    z-index: -1;
+}
+
+h1 {
+    color: #003c69;
+}
+
+table td {
+    height: 50px;
+}
+td, th{
+    padding: 8px;
+}
+
+.inputnum {
+    width: 30px;
+    border: 1px solid #2ca02c;
+}
+
+.panel-body select {
+    border: 1px solid #2ca02c;
+    border-radius: 12px ;
+}
+
+.targetLabel {
+    position: absolute;
+    color: #ffffff; display: inline; float: left;
+    max-width: 50px; text-align: center; margin-top: 0px;
+
+}
+
+.targetbar {
+    background-color: #FF0003; color: #ffffff;
+    height: 50px; text-align: center; line-height: 310%;
+    font-size: 1.2em; min-width: 20%; max-width: 100%; width: 20%;
+}
+
+/* Input form popup */
+.menu-btn {
+    z-index: 100; background: none; border: none;
+}
+
+.responsive-menu {
+    position: absolute;
+    left: -20px;
+    background: white;
+    border: 1px solid blue;
+    padding: 6px;
+}
+
+.matorder>td, .qualorder>td {width: 100px;}
+
+.matselect, .testselect {
+    width:90px ;
+}
+
+.insmethod {
+    width: 200px ;
+}
+
